@@ -1,0 +1,111 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Host Grotesk", "Ubuntu", sans-serif;
+    padding: 3rem 1rem;
+}
+
+.title {
+    height: 500px;
+    object-position: center center;
+    text-align: center;
+    background-image: url(../IMG/WALLPAPER.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: 0 0 20px purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1 {
+    font-size: 60px;
+    padding-bottom: 1.5rem;
+}
+
+.title a {
+    color: white;    
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.title a:hover {
+    color: darkblue;
+    background-color: #fff;
+    transition: 200ms;
+}
+
+section img {
+    width: 70%;
+    max-width: 500px;
+    height: auto;
+    margin: 0 2rem;
+    border-radius: 10px
+}
+
+section img:hover {
+    box-shadow: 0 0 20px #ca68ae;
+    transition: 200ms
+}
+
+section a {
+    color: black;
+}
+
+section a:hover {
+    text-shadow: 0 0 10px #ca68ae;
+    transition: 200ms;
+}
+
+section p {
+    padding: 2rem;
+}
+
+#loopnest {
+    background-image: url(../IMG/WALLPAPER.jpg);
+    background-size: cover;
+    background-position: center center;
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 95%);
+    padding: 1rem 0 4rem 0;
+}
+
+@media screen and (min-width: 1000px) {
+    .right, .left {
+        width: 50%;
+        margin: 1rem 0
+    }
+    
+    .container:not(.container:nth-of-type(1)) {
+        text-align: justify;
+    }
+    
+    footer .content {
+        text-align: center;
+    }
+    
+    section .right {
+        float: right;
+    }
+    
+    section .left {
+        float: left;
+    }
+    
+    section {
+        overflow: auto;
+    }
+    
+    #tomvanremortel {
+        padding-bottom: 4rem;
+    }
+}

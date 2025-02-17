@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+
+body {
+    margin: auto;
+    background-image: url(../IMG/WALLPAPER.jpg);
+    background-size: fill;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    text-align: center;
+}
+
+.viernulvier {
+    display: flex;
+    margin-top: 9rem;
+    justify-content: center;
+    object-position: center center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+.viernulvier a {
+    color: white;    
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.viernulvier a:hover {
+    color: purple;
+    background-color: #fff;
+    transition: 200ms;
+}
+
+@media screen and (min-width:800px) {
+    .viernulvier {
+        margin-top: 12rem;
+    }
+    
+    h1 {
+    font-size: 180px;
+}
+}

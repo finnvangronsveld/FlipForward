@@ -1,0 +1,48 @@
+.title {
+    height: 880px;
+    object-position: center center;
+    text-align: center;
+    background-image: url(IMG/WALLPAPER.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: 0 0 20px purple;
+}
+
+.title h1 {
+    padding-top: 300px;
+    padding-bottom: 15px;
+    font-size: 60px;
+}
+
+.title p {
+    padding-bottom: 30px;
+    font-size: 17px;
+}
+
+.title a {
+    color: white;    
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.title a:hover {
+    color: darkblue;
+    background-color: #fff;
+    transition: 200ms;
+}
+
+#about {
+    padding: 4rem 3rem;
+    text-align: center;
+}
+
+#about p {
+    padding-top: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}

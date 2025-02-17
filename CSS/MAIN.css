@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #ff6e24;
+    color: black;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.accentcolor {
+    color: #ff6e24;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    height: 80px;
+}
+
+header .container {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 80px;
+    position: relative;
+    margin-right: 1.3rem;
+    
+}
+
+header li {
+    display: inline;
+    padding: 1.3rem;
+}
+
+header .large {
+    display: none;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-shadow: 0 0 30px #ff6e24;
+    transition: 300ms;
+}
+
+header .active {
+    color: #ff6e24;
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-image: url(../IMG/WALLPAPER.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 20px purple;
+
+}
+
+footer a {
+    background-color: #ff6e24;
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+footer a:hover {
+    box-shadow: 0 0 5px black;
+    background-color: #fff;
+    color: #ff6e24;
+    transition: 200ms;
+}
+
+@media screen and (min-width:1000px) {
+    header {
+        height: 100px;
+    }
+    
+    header img {
+        height: 100px;
+    }
+    
+    header .mobile {
+        display: none;
+    }
+    
+    header .large {
+        display: inline;
+    }
+}
