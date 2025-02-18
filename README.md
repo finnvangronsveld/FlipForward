@@ -1,1 +1,1 @@
-![zjat.png](BRANDING/zjat.png)
+![BANNER](BRANDING/banner1.png)
